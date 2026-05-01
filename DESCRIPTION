@@ -1,0 +1,22 @@
+Package: FFD
+Type: Package
+Title: Analysis of Full Factorial Designs (FFD)
+Version: 0.1.0
+Date: 2026-04-28
+Authors@R: c(
+    person("Wanderley", "Xavier Pereira", email = "wander.wx@gmail.com", role = c("aut", "cre", "cph")),
+    person("Augusto Henrique", "de Sousa Xavier", email = "augustohpa12@gmail.com", role = c("aut", "cph")),
+    person("Centro Federal de Educacao Tecnologica de Minas Gerais", role = "cph")
+    )
+Description: Tools for generation and statistical analysis of Full Factorial Designs (FFD). The package allows experimental matrix generation, matrix export, model fitting, ANOVA, estimation of effects and coefficients, response surface visualization, contour plots, Pareto charts, consolidated analytical summaries and automated report export. Designed for researchers, students and professionals working with experimental design and process optimization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    graphics,
+    grDevices,
+    openxlsx,
+    stats,
+    utils
