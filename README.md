@@ -70,9 +70,12 @@ fit <- fit_ffd(
 ## Geração da matriz experimental
 
 ```r
-matriz_ffd(k = 2)
-matriz_ffd(k = 3)
-matriz_ffd(k = 2, replicatas = 2)
+mmatriz_ffd(
+  fatores = c("A", "B"),
+  niveis = 3,
+  replicas = 2
+)
+
 ```
 
 ---

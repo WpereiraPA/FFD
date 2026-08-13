@@ -74,3 +74,4 @@ matriz_ffd <- function(fatores,
 
   return(matriz)
 }
+
